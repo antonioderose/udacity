@@ -1,0 +1,45 @@
+img{
+	width:	100%;
+}
+
+.sizing{
+	width:	20%;
+}
+
+.spacing{
+	padding-top:	12px;
+}
+
+.right-align{
+	text-align:	right;
+}
+
+@media only screen and (max-width: 320px) {
+
+   body { 
+      font-size: 1em; 
+   }
+   h2{
+	font-size: 1.25em;
+   }
+   h3{
+	font-size: 1.5em;
+   }
+   h1{
+	font-size: 1.75em;
+   }
+
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
